@@ -1,0 +1,62 @@
+header{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  
+   .top-content{
+     width: 100%;
+     padding-right:10px ;
+     height: 39.5px;
+     border-bottom: 0.5px solid #6DB66D;
+     line-height: 39.5px;
+     text-align: right;
+      
+     .userName{
+       margin-left:15px;
+     }
+   }
+   .bottom-content{
+     width: 100%;
+     padding-right: 21px;
+     height: 39.5px;
+     border-top: 0.5px solid #6DB66D;
+     display: flex;
+     align-items: center;
+     
+
+    .title{
+      width: 25%;
+      height: 100%;
+      font-size: 25px;
+      color: #595959;
+      text-align: center;
+       position: relative;
+      &::after{
+        position: absolute;
+        content: '';
+        border-top: 20px solid #fff;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-left: 20px solid  transparent;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+     
+    }
+
+    .right-left{
+      width: 75%;
+      text-align: right;  
+      
+      .city{
+        margin: 0 10px;
+      }
+    }
+
+   }
+
+
+
+
+}
